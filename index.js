@@ -43,3 +43,6 @@ function changeArrowDirection() {
 }
 
 function changeTableOrder() {}
+
+const one = [...document.querySelectorAll('tbody tr~tr~tr td')]
+console.log(one)
